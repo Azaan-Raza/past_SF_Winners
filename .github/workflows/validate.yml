@@ -1,0 +1,20 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate catalog
+        run: python3 scripts/validate.py
+      - name: Check generated tables are current
+        run: |
+          python3 scripts/build_readme.py
+          git diff --exit-code -- '*.md' data/projects.json || (echo "Run scripts/build_readme.py and commit the result" && exit 1)
