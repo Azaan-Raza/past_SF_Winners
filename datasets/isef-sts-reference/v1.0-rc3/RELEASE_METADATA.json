@@ -1,0 +1,275 @@
+{
+  "version": "1.0-rc3",
+  "edition": "LINK_REFERENCE_WITH_ATTRIBUTED_ANALYSIS",
+  "pinned_azaan_commit": "72b2128d8dfb68f2eed099dc50b0024c2de87fa3",
+  "counts": {
+    "scientific_projects": 0,
+    "project_records": 17667,
+    "competition_appearances": 17667,
+    "collection_memberships": 17996,
+    "source_records": 26225,
+    "aliases": 26117,
+    "assertions": 220980,
+    "preferred_assertions": 159523,
+    "awards": 8994,
+    "annotations": 1048,
+    "asset_fingerprints": 31785,
+    "asset_occurrences": 31950,
+    "corrections": 5,
+    "unresolved_issues": 2501,
+    "project_identity_links": 0
+  },
+  "excluded_appearances": {
+    "quarantined": 11,
+    "context_retained_in_original_catalogue": 67
+  },
+  "quarantined_asset_occurrences": 77,
+  "bulk_payload_files": 0,
+  "public_student_roster": false,
+  "publication_authorized": false,
+  "candidate_checks_are_not_legal_clearance": true,
+  "visibility_gate": {
+    "rule_version": "VISIBILITY_REFERENCE_GATE_2026-11-09_v2",
+    "retained_projectboard_sources": 8121,
+    "retained_asset_occurrences": 31950,
+    "retained_fingerprints": 31785,
+    "restricted_or_unverified_references_included": 0,
+    "payload_redistribution_permission_claimed": false,
+    "projectboard_source_cohort_sha256": "53612b7d2a6c24f4bbe3adbd869961d3e9e7569b3ba35c8134c1a8cd4e314a03",
+    "asset_occurrence_cohort_sha256": "f80c3c06a6de405e3e66e151d0e1b13e052d6b4ff07a1ff8a50178b6d3184dce",
+    "evidence_scope": "Authenticated archived project and post visibility; conflicts withheld; minimal public source links and fingerprints only."
+  },
+  "correction_status": "DOCUMENTATION_CORRECTION_REQUIRES_FOCUSED_INDEPENDENT_VERIFICATION",
+  "coverage": {
+    "unit": "ASSET_REFERENCE_OCCURRENCE",
+    "baseline": "Earlier privately staged reference cohort after identity quarantine and before visibility filtering",
+    "baseline_is_full_private_archive": false,
+    "coverage_csv": "COVERAGE.csv",
+    "coverage_csv_sha256": "cf3184d7dd9badfea92d36c4f73b4b33a1184e7b981b441364e230b6677307f4",
+    "atomic_cells": 84,
+    "dimensions": [
+      "competition",
+      "year",
+      "artifact_type"
+    ],
+    "counts": {
+      "baseline_references": 54706,
+      "retained_references": 31950,
+      "withheld_references": 22756,
+      "restricted_references": 9108,
+      "unverified_audience_references": 13636,
+      "unverified_parent_references": 12
+    },
+    "retention_percent": "58.403100",
+    "withheld_percent": "41.596900",
+    "percentage_formula": "100 * row numerator / row baseline_references",
+    "rounding": "Decimal half-up to6 decimal places",
+    "zero_denominator_percentage": "CSV empty; JSON null; documentation N/A",
+    "by_year": [
+      {
+        "year": 2013,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2014,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2015,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2016,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2017,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2018,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2019,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2020,
+        "baseline_references": 0,
+        "retained_references": 0,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": null,
+        "withheld_percent": null
+      },
+      {
+        "year": 2021,
+        "baseline_references": 17653,
+        "retained_references": 17653,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": "100.000000",
+        "withheld_percent": "0.000000"
+      },
+      {
+        "year": 2022,
+        "baseline_references": 1601,
+        "retained_references": 1601,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": "100.000000",
+        "withheld_percent": "0.000000"
+      },
+      {
+        "year": 2023,
+        "baseline_references": 1354,
+        "retained_references": 1353,
+        "withheld_references": 1,
+        "restricted_references": 1,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": "99.926145",
+        "withheld_percent": "0.073855"
+      },
+      {
+        "year": 2024,
+        "baseline_references": 1376,
+        "retained_references": 1376,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": "100.000000",
+        "withheld_percent": "0.000000"
+      },
+      {
+        "year": 2025,
+        "baseline_references": 16190,
+        "retained_references": 502,
+        "withheld_references": 15688,
+        "restricted_references": 2052,
+        "unverified_audience_references": 13636,
+        "unverified_parent_references": 0,
+        "retention_percent": "3.100679",
+        "withheld_percent": "96.899321"
+      },
+      {
+        "year": 2026,
+        "baseline_references": 16532,
+        "retained_references": 9465,
+        "withheld_references": 7067,
+        "restricted_references": 7055,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 12,
+        "retention_percent": "57.252601",
+        "withheld_percent": "42.747399"
+      }
+    ],
+    "by_artifact_type": [
+      {
+        "artifact_type": "presentations",
+        "baseline_references": 46293,
+        "retained_references": 25277,
+        "withheld_references": 21016,
+        "restricted_references": 8573,
+        "unverified_audience_references": 12432,
+        "unverified_parent_references": 11,
+        "retention_percent": "54.602208",
+        "withheld_percent": "45.397792"
+      },
+      {
+        "artifact_type": "quad_charts",
+        "baseline_references": 8410,
+        "retained_references": 6670,
+        "withheld_references": 1740,
+        "restricted_references": 535,
+        "unverified_audience_references": 1204,
+        "unverified_parent_references": 1,
+        "retention_percent": "79.310345",
+        "withheld_percent": "20.689655"
+      },
+      {
+        "artifact_type": "supplementary_presentations",
+        "baseline_references": 3,
+        "retained_references": 3,
+        "withheld_references": 0,
+        "restricted_references": 0,
+        "unverified_audience_references": 0,
+        "unverified_parent_references": 0,
+        "retention_percent": "100.000000",
+        "withheld_percent": "0.000000"
+      }
+    ],
+    "quarantined_references_already_outside_baseline": 77,
+    "reason_scope": "Reference-association classifications, not a claim that all underlying assets were private. Audience-conflict exclusions are unverified.",
+    "comparison_limitations": [
+      "Nonuniform year/type selection; not a representative sampling frame",
+      "References are not projects, complete documents or unique fingerprints",
+      "No STS or pre2021 assets in this baseline; absence is not evidence of absent materials",
+      "Archival visibility does not guarantee current accessibility or payload reuse permission"
+    ],
+    "private_archive_preserved": true
+  },
+  "documentation_correction": {
+    "finding": "Uneven asset-reference coverage insufficiently disclosed",
+    "scope": "Coverage documentation and aggregate metadata only; all existing dataset rows unchanged",
+    "independent_verification_required": true,
+    "publication_authorized": false
+  }
+}

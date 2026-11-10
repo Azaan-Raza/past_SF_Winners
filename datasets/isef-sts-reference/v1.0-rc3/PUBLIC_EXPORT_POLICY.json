@@ -1,0 +1,36 @@
+{
+  "version": "1.0-rc3",
+  "edition": "LINK_REFERENCE_WITH_ATTRIBUTED_ANALYSIS",
+  "repository": "Azaan-Raza/past_SF_Winners",
+  "pinned_commit": "72b2128d8dfb68f2eed099dc50b0024c2de87fa3",
+  "included_event_scope": "core and absent from quarantine",
+  "public_annotation_fields": [
+    "partner_methods",
+    "partner_data_sources",
+    "partner_tags",
+    "partner_lesson"
+  ],
+  "public_text_policy": "Do not export third-party titles, abstracts, award descriptions, entrant lists, school/location values or personalized research advice. Public assertions describe source presence and preferred provenance without reproducing withheld values. No third-party binary payloads.",
+  "project_identity_policy": "Project records are source-scoped mentions, linked to competition appearances; globally adjudicated scientific_project_id remains null. Counts are not unique scientific projects.",
+  "quarantine_policy": "All 11 research entries excluded from public data; complete private register retained; 67 context entries remain in original Azaan repository but outside this ISEF/STS candidate.",
+  "source_url_policy": "HTTPS only; approved public hosts; no credentials, sensitive query parameters, private address or local path; no private cloud-share links.",
+  "allowed_source_hosts": [
+    "abstracts.societyforscience.org",
+    "github.com",
+    "investor.regeneron.com",
+    "isef.net",
+    "newsroom.regeneron.com",
+    "societyforscience.org",
+    "sspcdn.blob.core.windows.net",
+    "www.intc.com",
+    "www.prnewswire.com",
+    "www.regeneron.com",
+    "www.science.columbia.edu",
+    "www.sciencenews.org",
+    "www.societyforscience.org"
+  ],
+  "source_visibility_policy": "Retain ProjectBoard references only with authenticated nonprivate, nonhidden, nongated parent metadata. Withhold restricted or unauthenticated parents and source-dependent rows; keep independent public competition records.",
+  "asset_visibility_policy": "Retain only references supported by public parent and post visibility. Private posts, mixed visibility and audience-role conflicts are withheld. Exact named artifact sections can resolve old classification gaps; if no section matches, every archived project post must support public access. Reference metadata is not permission to redistribute payloads.",
+  "indirect_disclosure_policy": "Withhold removed source aliases, dependent assertions, source-specific issues, asset occurrence IDs and unused fingerprints. Private exclusion crosswalks and evidence must never enter the public overlay.",
+  "visibility_rule_version": "VISIBILITY_REFERENCE_GATE_2026-11-09_v2"
+}
