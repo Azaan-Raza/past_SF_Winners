@@ -1,0 +1,255 @@
+{
+  "format": "UTF-8 JSON Lines",
+  "schema_version": "1.0",
+  "tables": {
+    "scientific_projects": {
+      "columns": [
+        "scientific_project_id",
+        "identity_basis"
+      ],
+      "primary_key": [
+        "scientific_project_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/scientific_projects-001.jsonl"
+      ]
+    },
+    "project_records": {
+      "columns": [
+        "project_record_id",
+        "scientific_project_id",
+        "identity_status"
+      ],
+      "primary_key": [
+        "project_record_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/project_records-001.jsonl"
+      ]
+    },
+    "competition_appearances": {
+      "columns": [
+        "appearance_id",
+        "project_record_id",
+        "competition",
+        "year",
+        "participation_status",
+        "category_state",
+        "award_state",
+        "title_state",
+        "entrant_state"
+      ],
+      "primary_key": [
+        "appearance_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/competition_appearances-001.jsonl"
+      ]
+    },
+    "collection_memberships": {
+      "columns": [
+        "collection_id",
+        "appearance_id",
+        "source_record_id"
+      ],
+      "primary_key": [
+        "collection_id",
+        "appearance_id",
+        "source_record_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/collection_memberships-001.jsonl"
+      ]
+    },
+    "source_records": {
+      "columns": [
+        "source_record_id",
+        "appearance_id",
+        "namespace",
+        "original_identifier",
+        "source_url",
+        "cited_source_url",
+        "capture_version",
+        "link_status"
+      ],
+      "primary_key": [
+        "source_record_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/source_records-001.jsonl"
+      ]
+    },
+    "aliases": {
+      "columns": [
+        "namespace",
+        "external_id",
+        "appearance_id",
+        "source_record_id",
+        "link_status"
+      ],
+      "primary_key": [
+        "namespace",
+        "external_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/aliases-001.jsonl"
+      ]
+    },
+    "assertions": {
+      "columns": [
+        "assertion_id",
+        "appearance_id",
+        "source_record_id",
+        "field",
+        "source_state",
+        "export_state",
+        "verification_status"
+      ],
+      "primary_key": [
+        "assertion_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-001.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-002.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-003.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-004.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-005.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/assertions-006.jsonl"
+      ]
+    },
+    "preferred_assertions": {
+      "columns": [
+        "appearance_id",
+        "field",
+        "assertion_id"
+      ],
+      "primary_key": [
+        "appearance_id",
+        "field"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/preferred_assertions-001.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/preferred_assertions-002.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/preferred_assertions-003.jsonl",
+        "datasets/isef-sts-reference/v1.0-rc3/data/preferred_assertions-004.jsonl"
+      ]
+    },
+    "awards": {
+      "columns": [
+        "award_assertion_id",
+        "appearance_id",
+        "assertion_id",
+        "sequence",
+        "segmentation_status",
+        "amount",
+        "currency",
+        "award_level",
+        "description_export_state"
+      ],
+      "primary_key": [
+        "award_assertion_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/awards-001.jsonl"
+      ]
+    },
+    "annotations": {
+      "columns": [
+        "annotation_id",
+        "appearance_id",
+        "source_record_id",
+        "annotation_kind",
+        "text",
+        "claim_status",
+        "attribution_id"
+      ],
+      "primary_key": [
+        "annotation_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/annotations-001.jsonl"
+      ]
+    },
+    "asset_fingerprints": {
+      "columns": [
+        "sha256",
+        "bytes",
+        "mime_type",
+        "availability"
+      ],
+      "primary_key": [
+        "sha256"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/asset_fingerprints-001.jsonl"
+      ]
+    },
+    "asset_occurrences": {
+      "columns": [
+        "occurrence_id",
+        "appearance_id",
+        "projectboard_id",
+        "sha256",
+        "artifact_type",
+        "source_url",
+        "identity_status"
+      ],
+      "primary_key": [
+        "occurrence_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/asset_occurrences-001.jsonl"
+      ]
+    },
+    "corrections": {
+      "columns": [
+        "correction_id",
+        "appearance_id",
+        "field",
+        "preferred_assertion_id",
+        "old_assertion_id",
+        "prior_value_state",
+        "corrected_value_state",
+        "evidence_url"
+      ],
+      "primary_key": [
+        "correction_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/corrections-001.jsonl"
+      ]
+    },
+    "unresolved_issues": {
+      "columns": [
+        "issue_id",
+        "appearance_id",
+        "field",
+        "issue_type",
+        "disposition"
+      ],
+      "primary_key": [
+        "issue_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/unresolved_issues-001.jsonl"
+      ]
+    },
+    "project_identity_links": {
+      "columns": [
+        "from_project_record_id",
+        "to_project_record_id",
+        "relationship",
+        "evidence_status"
+      ],
+      "primary_key": [
+        "from_project_record_id",
+        "to_project_record_id"
+      ],
+      "files": [
+        "datasets/isef-sts-reference/v1.0-rc3/data/project_identity_links-001.jsonl"
+      ]
+    }
+  },
+  "identity": "Source-scoped project records are not adjudicated unique scientific projects. scientific_project_id is null until verified cross-appearance identity exists.",
+  "withheld_values": "Missing in source and withheld by release policy are distinct. No blank award implies nonwinner."
+}
